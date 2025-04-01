@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- if u r sending data to server using form then u have to give them names , using name attribute , in the case of GET method -->
+     <!-- By default every form hit GET route , to change route u have to mention it in the attribute method -->
+    <form action="/get-form-data" method="POST"> <!-- Form ko batana padta hai k data kis route p bhejna hai , we have to fill that route inside action attriubute -->
+        <input type="text" placeholder="Enter username" name="username">
+        <input type="text" placeholder="Enter email" name="email">
+        <input type="password" placeholder="Enter password" name="password">
+        <button>Submit form</button>
+    </form>
+</body>
+</html>
