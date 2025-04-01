@@ -8,7 +8,7 @@ const app = express()
 
 app.set("view engine", 'ejs') //decalring to express that the view engine we are going to use is ejs
 
-app.get('/',(req,res)=>{ //rendering the index.ejs file on this route
+app.get('/',(req,res)=>{ //rendering the index.ejs file on this route , render(dikhana)
     res.render('index') //write name of file without extension , use render instead of send
 })
 
